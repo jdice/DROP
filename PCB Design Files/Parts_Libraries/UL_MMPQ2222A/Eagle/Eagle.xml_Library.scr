@@ -1,0 +1,186 @@
+# Created by Ultra Librarian Gold 8.3.15 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SO-G16.pac';
+Layer 1;
+Smd '1' 87 24 -0 R0 (-204.7 350);
+Layer 1;
+Smd '2' 87 24 -0 R0 (-204.7 300);
+Layer 1;
+Smd '3' 87 24 -0 R0 (-204.7 250);
+Layer 1;
+Smd '4' 87 24 -0 R0 (-204.7 200);
+Layer 1;
+Smd '5' 87 24 -0 R0 (-204.7 150);
+Layer 1;
+Smd '6' 87 24 -0 R0 (-204.7 100);
+Layer 1;
+Smd '7' 87 24 -0 R0 (-204.7 50);
+Layer 1;
+Smd '8' 87 24 -0 R0 (-204.7 0);
+Layer 1;
+Smd '9' 87 24 -0 R0 (0 0);
+Layer 1;
+Smd '10' 87 24 -0 R0 (0 50);
+Layer 1;
+Smd '11' 87 24 -0 R0 (0 100);
+Layer 1;
+Smd '12' 87 24 -0 R0 (0 150);
+Layer 1;
+Smd '13' 87 24 -0 R0 (0 200);
+Layer 1;
+Smd '14' 87 24 -0 R0 (0 250);
+Layer 1;
+Smd '15' 87 24 -0 R0 (0 300);
+Layer 1;
+Smd '16' 87 24 -0 R0 (0 350);
+Layer 21;
+Wire 6 (-156 -32) (-49 -32);
+Wire 6 (-49 -32) (-49 -24);
+Wire 6 (-49 382) (-156 382);
+Wire 6 (-156 382) (-156 374);
+Wire 6 (-156 -24) (-156 -32);
+Wire 6 (-49 374) (-49 382);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-227 367);
+Layer 51;
+Wire 6 (-151 350) (-151 350);
+Wire 6 (-151 350) (-205 350);
+Wire 6 (-205 350) (-205 350);
+Wire 6 (-205 350) (-151 350);
+Wire 6 (-151 300) (-151 300);
+Wire 6 (-151 300) (-205 300);
+Wire 6 (-205 300) (-205 300);
+Wire 6 (-205 300) (-151 300);
+Wire 6 (-151 250) (-151 250);
+Wire 6 (-151 250) (-205 250);
+Wire 6 (-205 250) (-205 250);
+Wire 6 (-205 250) (-151 250);
+Wire 6 (-151 200) (-151 200);
+Wire 6 (-151 200) (-205 200);
+Wire 6 (-205 200) (-205 200);
+Wire 6 (-205 200) (-151 200);
+Wire 6 (-151 150) (-151 150);
+Wire 6 (-151 150) (-205 150);
+Wire 6 (-205 150) (-205 150);
+Wire 6 (-205 150) (-151 150);
+Wire 6 (-151 100) (-151 100);
+Wire 6 (-151 100) (-205 100);
+Wire 6 (-205 100) (-205 100);
+Wire 6 (-205 100) (-151 100);
+Wire 6 (-151 50) (-151 50);
+Wire 6 (-151 50) (-205 50);
+Wire 6 (-205 50) (-205 50);
+Wire 6 (-205 50) (-151 50);
+Wire 6 (-151 0) (-151 0);
+Wire 6 (-151 0) (-205 0);
+Wire 6 (-205 0) (-205 0);
+Wire 6 (-205 0) (-151 0);
+Wire 6 (-54 0) (-54 0);
+Wire 6 (-54 0) (0 0);
+Wire 6 (0 0) (0 0);
+Wire 6 (0 0) (-54 0);
+Wire 6 (-54 50) (-54 50);
+Wire 6 (-54 50) (0 50);
+Wire 6 (0 50) (0 50);
+Wire 6 (0 50) (-54 50);
+Wire 6 (-54 100) (-54 100);
+Wire 6 (-54 100) (0 100);
+Wire 6 (0 100) (0 100);
+Wire 6 (0 100) (-54 100);
+Wire 6 (-54 150) (-54 150);
+Wire 6 (-54 150) (0 150);
+Wire 6 (0 150) (0 150);
+Wire 6 (0 150) (-54 150);
+Wire 6 (-54 200) (-54 200);
+Wire 6 (-54 200) (0 200);
+Wire 6 (0 200) (0 200);
+Wire 6 (0 200) (-54 200);
+Wire 6 (-54 250) (-54 250);
+Wire 6 (-54 250) (0 250);
+Wire 6 (0 250) (0 250);
+Wire 6 (0 250) (-54 250);
+Wire 6 (-54 300) (-54 300);
+Wire 6 (-54 300) (0 300);
+Wire 6 (0 300) (0 300);
+Wire 6 (0 300) (-54 300);
+Wire 6 (-54 350) (-54 350);
+Wire 6 (-54 350) (0 350);
+Wire 6 (0 350) (0 350);
+Wire 6 (0 350) (-54 350);
+Wire 6 (-151 -27) (-54 -27);
+Wire 6 (-54 -27) (-54 377);
+Wire 6 (-54 377) (-151 377);
+Wire 6 (-151 377) (-151 -27);
+Wire 6 (-90 377) -180 (-114 377);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-163 325);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-231 150);
+Layer 27;
+
+Edit 'MMPQ2222A.sym';
+Layer 94;
+Pin 'C_2' Pas None Middle R0 Both 0 (100 0)
+Pin 'C_3' Pas None Middle R0 Both 0 (100 -100)
+Pin 'C_4' Pas None Middle R0 Both 0 (100 -200)
+Pin 'C_5' Pas None Middle R0 Both 0 (100 -300)
+Pin 'C_6' Pas None Middle R0 Both 0 (100 -400)
+Pin 'C_7' Pas None Middle R0 Both 0 (100 -500)
+Pin 'C_8' Pas None Middle R0 Both 0 (100 -600)
+Pin 'C' Pas None Middle R0 Both 0 (100 -700)
+Pin 'B_2' Pas None Middle R180 Both 0 (1700 -700)
+Pin 'E_2' Pas None Middle R180 Both 0 (1700 -600)
+Pin 'B_3' Pas None Middle R180 Both 0 (1700 -500)
+Pin 'E_3' Pas None Middle R180 Both 0 (1700 -400)
+Pin 'B_4' Pas None Middle R180 Both 0 (1700 -300)
+Pin 'E_4' Pas None Middle R180 Both 0 (1700 -200)
+Pin 'B' Pas None Middle R180 Both 0 (1700 -100)
+Pin 'E' Pas None Middle R180 Both 0 (1700 0)
+Wire 6 (300 200) (300 -900);
+Wire 6 (300 -900) (1500 -900);
+Wire 6 (1500 -900) (1500 200);
+Wire 6 (1500 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (714 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (689 259);
+
+Edit 'MMPQ2222A.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add MMPQ2222A 'A' Next  0 (0 0);
+Package 'SO-G16';
+Technology '';
+Attribute MANUFACTURER_PART_NUMBER 'MMPQ2222A';
+Attribute VENDOR 'Motorola';
+Connect 'A.C_2' '1';
+Connect 'A.C_3' '2';
+Connect 'A.C_4' '3';
+Connect 'A.C_5' '4';
+Connect 'A.C_6' '5';
+Connect 'A.C_7' '6';
+Connect 'A.C_8' '7';
+Connect 'A.C' '8';
+Connect 'A.B_2' '9';
+Connect 'A.E_2' '10';
+Connect 'A.B_3' '11';
+Connect 'A.E_3' '12';
+Connect 'A.B_4' '13';
+Connect 'A.E_4' '14';
+Connect 'A.B' '15';
+Connect 'A.E' '16';
